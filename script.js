@@ -108,7 +108,7 @@ function editTask(id) {
         document.getElementById("taskDescription").value = task.description;
         document.getElementById("taskDate").value = task.date;
         
-        deleteTask(id); // Remove the task so it can be updated
+        deleteTask(id); 
     }
 }
 
