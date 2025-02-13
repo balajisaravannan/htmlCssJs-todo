@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="homeContainer">
+        <div class="flex">
+            <h1>Todo List</h1>
+            <i id="add" class="fa fa-plus-circle" aria-hidden="true" onclick="taskShow()"></i>
+            <i id="close" class="fa fa-times-circle" aria-hidden="true" onclick="taskClose()"></i>
+        </div>
+       
+         <div class="taskInput" id="taskInput">
+            <input type="text" id="taskName" placeholder="Task Name">
+            <input type="text" id="taskDescription" placeholder="Task Description">
+            <input type="date" id="taskDate">
+            <button onclick="addTask()">Add Task</button>
+         
+        </div>
+        <ul class="" id="taskList">No Task Lists</ul>
+  
+    </div>
+     <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TODO</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fieldBox">
+        <h3 class="login">Login</h3>
+            <label for="userName">User Name</label>
+            <input type="text" id="userName" placeholder="User name" required>
+            <p id="userError" class="error"></p>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <p id="passwordError" class="error"></p>
+            <button onclick="signIn()">Send</button>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
